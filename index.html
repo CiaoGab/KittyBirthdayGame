@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,3 +44,50 @@
     <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitty Party Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>🐱 Kitty Party Quiz 🐱</h1>
+        <div id="start-screen">
+            <button id="start-button">Start Quiz</button>
+        </div>
+        <div id="quiz-screen" style="display: none;">
+            <div id="question-container"></div>
+            <div id="answer-buttons" class="answer-grid"></div>
+            <button id="next-button">Next</button>
+        </div>
+    </div>
+
+    <!-- Celebration Modal -->
+    <div id="celebration-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="celebration-content">
+                <h2>🎉 Amazing Score! 🎉</h2>
+                <p>You're a true Kitty Party Champion!</p>
+                <button id="prize-button" class="prize-button">🎁 Click here for your birthday present prize! 🎁</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Popup -->
+    <div id="image-popup" class="modal">
+        <div class="image-popup-content">
+            <img src="images/KarateChop.png" alt="Celebration Image">
+            <div class="close-message">Click anywhere to close</div>
+        </div>
+    </div>
+
+    <audio id="celebration-sound" src="celebration.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> cccf0e95cad4ab2e93e95191f15be6e271f7ff50

@@ -21,4 +21,8 @@ A fun interactive quiz game with a special surprise for high scores!
 3. Open `index.html` in a web browser
 
 ## Credits
+<<<<<<< HEAD
 Created with ❤️ for a special birthday celebration! 
+=======
+Created with ❤️ for a special birthday celebration!
+>>>>>>> cccf0e95cad4ab2e93e95191f15be6e271f7ff50
