@@ -284,3 +284,14 @@ button:hover {
 .prize-button:active {
     transform: translateY(1px);
 }
+
+.prize-message {
+    color: #8B4513;
+    font-size: 1.3em;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgba(255, 248, 240, 0.8);
+    border-radius: 10px;
+    border: 2px dashed #D2691E;
+    animation: bounce 2s infinite;
+}
